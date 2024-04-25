@@ -1,0 +1,14 @@
+.pokemon-list-wrapper{
+  margin: 1rem 0; 
+  font-size: 20px; 
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+.pokemon-wrapper{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

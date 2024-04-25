@@ -1,0 +1,11 @@
+.pockedex-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #05ec05;
+    cursor: pointer;
+}
+h1{
+    letter-spacing: 5px;
+}
