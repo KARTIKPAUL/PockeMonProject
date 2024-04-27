@@ -1,6 +1,9 @@
 .pokemon-list-wrapper{
   margin: 1rem 0; 
   font-size: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 p{
     text-align: center;
@@ -11,4 +14,16 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.controls button{
+  padding: 1rem;
+  margin: 1rem;
+  background-color:#ebeb0f;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+.controls button:hover{
+  background-color:rgb(16, 241, 166);
 }
